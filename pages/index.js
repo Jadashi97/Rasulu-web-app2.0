@@ -1,11 +1,18 @@
-import React from 'react'
+import React from 'react';
+import tw from 'tailwind-styled-components';
+import Header from '../components/Header';
 
 const index = () => {
   return (
-    <div>
-      Rasulu Web App
-    </div>
+    <Wrapper>
+      <Header/>
+    </Wrapper>
   )
 }
 
 export default index;
+
+
+const Wrapper = tw.div`
+    flex flex-col h-screen
+`;
