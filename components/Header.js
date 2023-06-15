@@ -28,5 +28,5 @@ const HeaderLogo = tw.img`
 `;
 
 const CompanyName = tw.div`
-  text-5xl text-black p-4 m-4 text-center rounded-full bg-gradient-to-r from-purple-400 md:from-yellow-500
+  text-5xl text-black p-4 m-4 text-center rounded-full bg-gradient-to-r from-purple-400 md:from-violet-500
 `;

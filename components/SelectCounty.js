@@ -28,8 +28,8 @@ const SelectCountry = (props) => {
 
   return (
     <Wrapper>
+      <Title>Choose Country to send money: </Title>
       <CountryContainer>
-        <Title>Choose Country to send money to </Title>
           <Autocomplete
             value={value}
             disableClearable
@@ -47,13 +47,13 @@ const SelectCountry = (props) => {
 export default SelectCountry;
 
 const Wrapper = tw.div`
-    flex flex-col h-screen
+    flex flex-row 
 `;
 
 const CountryContainer = tw.div`
-  flex-1 p-4
+  flex-1 p-4 w-1/2
 `;
 
 const Title = tw.div`
-  flex text-violet-400 font-bold pl-4 md:text-4xl self-center
+  flex text-violet-400 font-bold pl-4 md:text-3xl self-center
 `;
