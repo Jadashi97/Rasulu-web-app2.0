@@ -5,17 +5,21 @@ import SelectCounty from '../components/SelectCounty';
 import RecipientName from '../components/RecipientName';
 import InputAmount from '../components/InputAmount';
 import SwitchCurrency from '../components/SwitchCurrency';
+// import MainApp from '../components/MainApp';
+
 
 const Index = () => {
     return (
       <Wrapper> 
           <Header/>
-          <SelectCounty/>
+          <InputAmount/>
           <RecipientName/>
           <ConversionContainer>
+            <SelectCounty/>
+            <SwitchCurrency/>
             <InputAmount/>
-            {/* <SwitchCurrency/> */}
           </ConversionContainer>
+          {/* <MainApp/> */}
       </Wrapper>
     )
 }

@@ -2,15 +2,15 @@ import React from 'react';
 import {Button, Grid,TextField} from "@mui/material";
 import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
 import { useContext } from 'react';
-import { CurrencyContext } from '../context/CurrencyConverter';
+import { CurrencyContext } from 'context/CurrencyConverter.jsx';
 
 const SwitchCurrency = () => {
-  const {
-    fromCurrency,
-    setFromCurrency,
-    toCurrency,
-    setToCurrency
-  } = useContext(CurrencyContext);
+  // const {
+  //   // fromCurrency,
+  //   setFromCurrency,
+  //   toCurrency,
+  //   setToCurrency
+  // } = useContext(CurrencyContext);
 
    const handleSwitch = () => {
       setFromCurrency(toCurrency);

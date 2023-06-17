@@ -51,9 +51,9 @@ const Wrapper = tw.div`
 `;
 
 const CountryContainer = tw.div`
-  flex-1 p-4 w-1/2
+  flex-1 w-1/2
 `;
 
 const Title = tw.div`
-  flex text-violet-400 font-bold pl-4 md:text-3xl self-center
+  flex text-violet-400 font-bold md:text-2xl self-center
 `;
