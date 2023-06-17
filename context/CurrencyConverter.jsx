@@ -1,4 +1,4 @@
-import React, { Children, createContext, useState } from "react";
+import React, { children, createContext, useState } from "react";
 
 export const CurrencyContext = createContext();
 

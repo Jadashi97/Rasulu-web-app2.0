@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { CurrencyContext } from "../context/CurrencyConverter";
 
 const InputAmount = () => {
-  //   const { firstAmount, setFirstAmount } = useContext(CurrencyContext);
+  // const { firstAmount, setFirstAmount } = useContext(CurrencyContext);
 
   return (
     <Grid>
